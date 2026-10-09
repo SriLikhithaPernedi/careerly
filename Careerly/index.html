@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Careerly helps students identify career skill gaps, build learning roadmaps, discover projects, and prepare for jobs."
+  >
+
+  <title>Careerly | Your Career, Your Roadmap</title>
+
+  <!-- Connect our CSS file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Connect our JavaScript file -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <header class="navbar">
+    <a href="#home" class="logo" aria-label="Careerly home">
+      Career<span>ly</span>
+      <span class="logo-dot">.</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#how-it-works">How It Works</a>
+      <a href="#features">Features</a>
+      <a href="#roadmap">Your Roadmap</a>
+    </nav>
+
+    <a href="#career-tool" class="nav-cta">Get Started <span aria-hidden="true">→</span></a>
+  </header>
+
+  <main>
+    <!-- Hero / landing section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          YOUR FUTURE STARTS HERE
+        </div>
+
+        <h1>
+          Your dream career.<br>
+          <span>Your roadmap.</span>
+        </h1>
+
+        <p class="hero-description">
+          Stop wondering what to learn next. Discover the skills your
+          dream job needs, identify your gaps, and turn your goals into
+          an actionable career roadmap.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#career-tool" class="primary-button">
+            Build My Career Roadmap <span aria-hidden="true">→</span>
+          </a>
+          <a href="#how-it-works" class="secondary-button">
+            Explore Careerly
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span aria-hidden="true">✓</span>
+          Free to explore · Built for students · Learn at your pace
+        </div>
+      </div>
+
+      <!-- Hero preview card -->
+      <div class="hero-visual" aria-label="Preview of a Careerly roadmap">
+        <div class="visual-glow"></div>
+
+        <div class="preview-card">
+          <div class="preview-top">
+            <div>
+              <p class="small-label">YOUR CAREER JOURNEY</p>
+              <h2>Web Developer</h2>
+            </div>
+            <span class="preview-icon" aria-hidden="true">✳</span>
+          </div>
+
+          <div class="preview-progress">
+            <div class="progress-label">
+              <span>Learning roadmap</span>
+              <strong>Getting started</strong>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="preview-divider"></div>
+
+          <p class="small-label">YOUR LEARNING PATH</p>
+
+          <div class="preview-step completed">
+            <span class="step-marker">✓</span>
+            <div>
+              <strong>HTML & CSS</strong>
+              <p>Build your foundation</p>
+            </div>
+            <span class="step-tag">START</span>
+          </div>
+
+          <div class="preview-step">
+            <span class="step-marker">2</span>
+            <div>
+              <strong>JavaScript</strong>
+              <p>Bring websites to life</p>
+            </div>
+          </div>
+
+          <div class="preview-step">
+            <span class="step-marker">3</span>
+            <div>
+              <strong>Build Projects</strong>
+              <p>Turn skills into experience</p>
+            </div>
+          </div>
+
+          <div class="preview-footer">
+            <span class="sparkle" aria-hidden="true">✦</span>
+            One step at a time. One goal at a time.
+          </div>
+        </div>
+
+        <div class="floating-note floating-note-top">
+          <span class="floating-icon" aria-hidden="true">◎</span>
+          <div>
+            <strong>Find your gaps</strong>
+            <p>Know what to learn next</p>
+          </div>
+        </div>
+
+        <div class="floating-note floating-note-bottom">
+          <span class="floating-icon green" aria-hidden="true">↗</span>
+          <div>
+            <strong>Build real projects</strong>
+            <p>Show what you can do</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value proposition -->
+    <section class="trust-strip" aria-label="Careerly benefits">
+      <div><span>01</span> Discover your direction</div>
+      <div><span>02</span> Understand your skill gaps</div>
+      <div><span>03</span> Take action with a roadmap</div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how-it-works">
+      <div class="section-heading">
+        <p class="eyebrow">SIMPLE. PRACTICAL. STUDENT-FIRST.</p>
+        <h2>From confused to <span>career-ready.</span></h2>
+        <p>
+          A clear starting point for students who want to turn their
+          career ambitions into real progress.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="info-card">
+          <div class="card-number">01</div>
+          <div class="card-symbol" aria-hidden="true">◎</div>
+          <h3>Choose your career</h3>
+          <p>
+            Select a career you're interested in and explore the skills
+            commonly needed for that role.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-number">02</div>
+          <div class="card-symbol" aria-hidden="true">⌁</div>
+          <h3>Discover your gaps</h3>
+          <p>
+            Compare your current skills with the skills in your selected
+            career profile.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-number">03</div>
+          <div class="card-symbol" aria-hidden="true">↗</div>
+          <h3>Follow your roadmap</h3>
+          <p>
+            Get a practical learning sequence and project ideas to help
+            you develop job-relevant skills.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Interactive career tool -->
+    <section class="section career-section" id="career-tool">
+      <div class="section-heading">
+        <p class="eyebrow">YOUR JOURNEY BEGINS HERE</p>
+        <h2>Let's map out <span>your future.</span></h2>
+        <p>
+          Choose a target career and tell us which skills you already
+          know. Careerly will help you identify your next steps.
+        </p>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-heading">
+          <div class="tool-step">STEP 01</div>
+          <h3>Which career interests you?</h3>
+          <p>Choose the role you want to work towards.</p>
+        </div>
+
+        <form id="career-form">
+          <label for="career-select">Your target career</label>
+
+          <select id="career-select" name="career" required>
+            <option value="">Select a career</option>
+            <option value="web-developer">Web Developer</option>
+            <option value="python-developer">Python Developer</option>
+            <option value="data-analyst">Data Analyst</option>
+            <option value="java-developer">Java Developer</option>
+          </select>
+
+          <div class="tool-heading skills-heading">
+            <div class="tool-step">STEP 02</div>
+            <h3>What skills do you already know?</h3>
+            <p>
+              Select the skills you feel comfortable with. You can
+              change these later.
+            </p>
+          </div>
+
+          <div id="skills-container" class="skills-container">
+            <p class="empty-state">
+              Select a career above to see its relevant skills.
+            </p>
+          </div>
+
+          <button type="submit" class="primary-button submit-button">
+            Analyze My Skills <span aria-hidden="true">→</span>
+          </button>
+
+          <p class="form-note">
+            This prototype uses predefined career skill profiles.
+            Your selections are processed in your browser.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="section results-section" id="results" hidden>
+      <div class="section-heading">
+        <p class="eyebrow">YOUR PERSONALIZED STARTING POINT</p>
+        <h2>Your career <span>action plan.</span></h2>
+        <p id="results-intro">
+          Here is your starting point based on the skills you selected.
+        </p>
+      </div>
+
+      <div id="results-summary" class="results-summary"></div>
+
+      <div class="results-grid">
+        <article class="result-card">
+          <p class="result-kicker">SKILL GAP ANALYSIS</p>
+          <h3>Skills to develop</h3>
+          <div id="skill-gaps"></div>
+        </article>
+
+        <article class="result-card" id="roadmap">
+          <p class="result-kicker">YOUR LEARNING PATH</p>
+          <h3>Recommended roadmap</h3>
+          <div id="roadmap-list"></div>
+        </article>
+      </div>
+
+      <div class="projects-panel" id="projects">
+        <p class="result-kicker">LEARN BY BUILDING</p>
+        <h3>Project ideas for your journey</h3>
+        <p>Practice your skills by creating something useful.</p>
+        <div id="project-list" class="project-grid"></div>
+      </div>
+
+      <div class="results-actions">
+        <button type="button" id="edit-skills" class="secondary-button">
+          ← Edit my skills
+        </button>
+        <button type="button" id="start-over" class="secondary-button">
+          Start over
+        </button>
+      </div>
+    </section>
+
+    <!-- Final call to action -->
+    <section class="closing-section">
+      <div>
+        <p class="eyebrow">SMALL STEPS. BIG POSSIBILITIES.</p>
+        <h2>Your career journey doesn't need to be confusing.</h2>
+        <p>
+          Start with a goal. Understand your gaps. Build the skills
+          that move you forward.
+        </p>
+      </div>
+
+      <a href="#career-tool" class="primary-button">
+        Start My Journey <span aria-hidden="true">→</span>
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">
+      Career<span>ly</span><span class="logo-dot">.</span>
+    </a>
+    <p>Helping students turn career goals into action.</p>
+    <p class="footer-small">Careerly · Your career, your roadmap.</p>
+  </footer>
+</body>
+</html>
